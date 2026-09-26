@@ -68,7 +68,7 @@ Background needed but not cited in the proposal (find + read):
 ## Phase 2 — Close the Gaps Left Open by the Preliminary Trial
 *(depends on: Phase 1 — reuses its preprocessing script and needs its full-corpus run finished)*
 
-- [ ] Done   [ ] WIP — **[Paper: Petrovčič et al. 2025]** Reverse-engineer / reimplement the missing **signature-edge** preprocessing (which premises appear in a state's goal vs. local context) — currently unpublished in the reference repo. *[Owner: P]*
+- [ ] Done   [x] WIP — **[Paper: Petrovčič et al. 2025]** Reverse-engineer / reimplement the missing **signature-edge** preprocessing (which premises appear in a state's goal vs. local context) — currently unpublished in the reference repo. Logic implemented + unit-tested in `implementation/graph_retrieval/signature_edges.py` (7/7 tests pass); **not yet Done** — still needs a run against a live `TracedRepo` to close out. *[Owner: P]*
 - [ ] Done   [ ] WIP — **[Paper: Petrovčič et al. 2025]** Replace the single generic `dependency` edge with the paper's full **three-relation scheme** (signature / proof-dependency / confirm the third relation from the paper). *[Owner: P]*
 - [ ] Done   [ ] WIP — **[Paper: None]** Full-corpus edge validation (spot-check a statistically meaningful sample of the 19K-premise graph, not just 2 edges). *[Owner: P]*
 
